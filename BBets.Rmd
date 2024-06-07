@@ -117,5 +117,8 @@ print(uci)
 
 # Discussion and Conclusion
 
+   The fair odds for a bet on matching birthdays in a 35 person class is about $4.50 to make the odds even. 
+  The size class is a 2:1 odds bet fair would be about 28 or 29 students.   
+  The amount of money would Brownlow be expected to end up with if the bets went as described would be about $228
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
