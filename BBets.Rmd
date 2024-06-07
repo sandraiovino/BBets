@@ -54,7 +54,8 @@ meanbank= mean(bank)
 print(meanbank)
 hist(bank)
 ```
-Average profit equals to about $280  
+  
+  Average profit equals to about $280    
 
 ```{r}
 varbanks= var(bank)
@@ -95,8 +96,21 @@ print(uci)
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
 
+```{r}
+bank = vector('numeric')
+for (i in 1:100){
+  bank[i]= BrLw(28,2, 637)
+}
+meanbank= mean(bank)
+print(meanbank)
+hist(bank)
+lci= mean(bank)-sqrt(var(bank))*1.96 
+uci= mean(bank)+sqrt(var(bank))*1.96 
+print (lci)
+print(uci)
 
-
+```
+  the amount of people to make it fair for the 2:1 bet is about 28 people  
 
 
 
